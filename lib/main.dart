@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primaryColor: Colors.pinkAccent,
-        scaffoldBackgroundColor: Color(0xFFE0F7FA), // biru muda
+        scaffoldBackgroundColor: Color(0xFFFFEBEE), // pink muda
         fontFamily: 'Roboto',
         floatingActionButtonTheme: FloatingActionButtonThemeData(
           backgroundColor: Colors.pinkAccent,
@@ -122,7 +122,7 @@ class _TodoListPageState extends State<TodoListPage> {
                 final task = _tasks[index];
                 return Card(
                   elevation: 2,
-                  color: Color(0xFFFFEBEE), // pink muda
+                  color: Color(0xFFB3E5FC), // biru pastel
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
